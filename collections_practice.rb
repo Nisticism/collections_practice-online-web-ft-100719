@@ -7,7 +7,11 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
+  index = 0
   array.sort do |nums.length|
+    nums = array[index].length
+    index += 1
+  end
 end
 
 def swap_elements(array)
