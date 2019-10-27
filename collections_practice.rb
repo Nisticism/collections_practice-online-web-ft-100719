@@ -8,7 +8,8 @@ end
 
 def sort_array_char_count(array)
   index = 0
-  array.sort do |array[index].length|
+  array.sort do |num|
+    
     index += 1
   end
 end
