@@ -25,7 +25,8 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |string|
-    new_array << string.replace()
+    string[2] = "$"
+    new_array << string
   end
 end
 
@@ -33,6 +34,14 @@ def find_a(array)
   array.select do |string|
     string.start_with?("a")
   end
+end
+
+def sum_array(array)
+  total = 0
+  array.each do |nums|
+    total += nums
+  end
+  total
 end
 
 def add_s(array)
