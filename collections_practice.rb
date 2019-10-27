@@ -8,7 +8,7 @@ end
 
 def sort_array_char_count(array)
   index = 0
-  array.sort do |num|
+  array.sort_by do |num|
     num.length
   end
 end
