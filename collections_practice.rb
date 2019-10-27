@@ -7,6 +7,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
+  new_array = 
   array.sort()
 end
 
@@ -46,7 +47,11 @@ end
 
 def add_s(array)
   array.each_with_index.collect{|element, index|
-    element = element + 's' if index != 1
+    if element != 1 
+      element = element + 's'
+    else
+      element = element
+    end
   }
 end
 
